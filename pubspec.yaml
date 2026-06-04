@@ -1,0 +1,31 @@
+name: app
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.32.0
+  cloud_firestore: ^4.17.5
+  geolocator: ^10.1.0
+  flutter_blue_plus: ^1.31.8
+  flutter_ble_peripheral: ^1.2.0
+  permission_handler: ^11.0.1
+  path_provider: ^2.1.1
+  csv: ^5.1.1
+  audioplayers: ^5.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/success.mp3
